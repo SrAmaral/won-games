@@ -8,7 +8,7 @@ import TextField from '.'
 
 describe('<TextField />', () => {
   it('Renders with Label', () => {
-    renderWithTheme(<TextField label="Label" name="label" />)
+    renderWithTheme(<TextField label="Label" name="Label" />)
 
     expect(screen.getByLabelText('Label')).toBeInTheDocument()
   })
@@ -84,7 +84,6 @@ describe('<TextField />', () => {
       <TextField
         icon={<Email data-testid="icon" />}
         label="TextField"
-        name="TextField"
         error="Error message"
       />
     )
