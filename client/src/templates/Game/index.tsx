@@ -1,6 +1,5 @@
 import { Divider } from 'components/Divider'
 import Gallery, { GalleryImageProps } from 'components/Gallery'
-import { GameCardProps } from 'components/GameCard'
 import GameDetails, { GameDetailsProps } from 'components/GameDetails'
 import GameInfo, { GameInfoProps } from 'components/GameInfo'
 import { HighlightProps } from 'components/Highlight'
